@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="/myposcard/css/style.css">
+    <link rel="stylesheet" href="/myposcard/css/fontawesome/css/all.css">
+    <link href="https://fonts.googleapis.com/css?family=Handlee&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"> 
+
+    <style> 
+            .input-icons i { 
+                position: absolute; 
+            } 
+              
+            .input-icons { 
+                width: 100%; 
+                margin-bottom: 10px; 
+            } 
+              
+            .icon { 
+                padding: 4px; 
+                color: green; 
+                min-width: 30px; 
+                text-align: center; 
+            } 
+              
+            .input-field { 
+                width: 100%; 
+                padding: 0px; 
+                text-align: center; 
+            } 
+              
+            h2 { 
+                color: green; 
+            } 
+        </style> 
+
+</head>
+<body>
+
+    <section>
+        <div class="postcard">
+            <div class="header">
+                <div class="imagen"> 
+                    <img src="/myposcard/img/logo.ico" alt="logo">
+                </div>
+                <div class="tit">
+                    <h1>My Postcard</h1>
+                </div>
+
+            </div>
+            <div class="divbody">
+                <div class="left">
+                    <p>Look how awesome! this is a postcard that i created using HTML5 and CSS3 durin my 4Geeks Academy Course!</p>
+                    <p>This is so cool, can´t wait to start doing more stuff!</p>        
+                </div>
+                <div class="right">
+                        <form>
+                                <input type="text" value="Some name"><br>
+                                <input type="text" value="Some email"><br>
+                                <div class="input-icons"> 
+                                        <i class="fa fa-envelope icon"> 
+                                      </i> 
+                                        <input class="input-field" 
+                                               type="text"
+                                               placeholder="Email"> 
+                                </div>
+                                <div class="input-icons"> 
+                                        <i class="fa fa-envelope icon"> 
+                                      </i> 
+                                        <input class="input-field" 
+                                               type="text"
+                                               placeholder="Comment"> 
+                                </div> 
+                                
+                        </form>
+                </div>
+            </div>
+            <div class="footer">
+                <input type="submit" value="Send My Postcard">
+            </div>
+        </div>
+    </section>
+</body>
+</html>
